@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600;700;800&family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+hr{
+  
+    color: rgb(153, 151, 151);
+     margin-top: 7px;
+     opacity: 0.2;
+}
+#head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+#head h1{
+    font-size: 30px;
+   color:  rgba(0, 0, 0, .85);
+    margin-top: 10px;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+#head img{
+    height: 75px;
+   
+}
+ #head p{
+    color: grey;
+ 
+    margin-top: 10px;
+}
+#head h3{
+    color: #8dc63f;
+}
+/* .sel{
+    width: 300px;
+} */
+#main{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    width: 100%;
+    /* background-color: #8dc63f; */
+    padding: 25px 100px;
+    margin-left: 110px;
+}
+.detail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.inbox{
+    width: 40%;
+    margin-top: 10px;
+   
+}
+input{
+    width: 350px;
+    height: 45px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #8dc63f;
+
+}
+input:focus{
+    outline: #0455ce;
+    border-color: #0455ce;
+}
+
+.sel{
+    width: 350px;
+        height: 45px;
+        border-radius: 5px;
+            border-color: #8dc63f;
+            cursor: pointer;
+            
+
+}
+select:focus{
+    border-color: #0455ce;
+        outline: #0455ce;
+       
+}
+
+.p
+{
+    margin-top: 55px;
+    line-height: 2;
+}
+label{
+    color: #0455ce;
+}
+button{
+    width: 150px;
+    height: 45px;
+    padding: 7px;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    background-color: #0455cee3;
+    
+}
+button:hover{
+    background-color: #0455ce;
+    cursor: pointer;
+}
